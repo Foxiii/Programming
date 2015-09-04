@@ -1,0 +1,15 @@
+qs(nil) -> nil
+qs(cons(X, Xs)) -> concat(qs(low(X, Xs)), cons(X, qs(high(X, Xs))))
+low(X, nil) -> nil
+low(X, cons(Y, Ys)) -> iflow(leq(X, Y), X, cons(Y, Ys))
+iflow(true, X, cons(Y, Ys)) -> low(X, Ys)
+iflow(false, X, cons(Y, Ys)) -> cons(Y, low(X, Ys))
+high(X, nil) -> nil
+high(X, cons(Y, Ys)) -> ifhigh(leq(X, Y), X, cons(Y, Ys))
+ifhigh(true, X, cons(Y, Ys)) -> cons(Y, high(X, Ys))
+ifhigh(false, X, cons(Y, Ys)) -> high(X, Ys)
+leq(o, X) -> true
+leq(s(X), o) -> false
+leq(s(X), s(Y)) -> leq(X, Y)
+concat(cons(X, Xs), Ys) -> cons(X, concat(Xs, Ys))
+concat(nil, Ys) -> Ys

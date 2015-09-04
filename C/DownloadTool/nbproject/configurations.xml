@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>headers.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>cleaner.c</itemPath>
+      <itemPath>doThanks.c</itemPath>
+      <itemPath>findPid.c</itemPath>
+      <itemPath>hashset.c</itemPath>
+      <itemPath>hashset.h</itemPath>
+      <itemPath>hashset_itr.c</itemPath>
+      <itemPath>hashset_itr.h</itemPath>
+      <itemPath>login.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>md5.c</itemPath>
+      <itemPath>outputarray.c</itemPath>
+      <itemPath>tokenSearch.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>curl</linkerLibLibItem>
+            <linkerLibLibItem>crypto</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="cleaner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="doThanks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="findPid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hashset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hashset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hashset_itr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hashset_itr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="login.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="outputarray.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tokenSearch.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="cleaner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="doThanks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="findPid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hashset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hashset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hashset_itr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hashset_itr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="login.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="outputarray.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tokenSearch.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

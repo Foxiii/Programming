@@ -1,0 +1,2 @@
+plus(s(X),Y) -> s(plus(X,Y))
+plus(o,Y) -> Y
