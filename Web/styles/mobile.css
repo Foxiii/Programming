@@ -1,0 +1,14 @@
+
+@media only screen and (max-device-width: 736px){
+    body {
+        font-family:Verdana,sans-serif;font-size:0.8em;
+        position: relative;
+        display: block;
+        margin:auto;
+        color:white;
+        width:900px;
+        background: black;
+
+    }
+}
+

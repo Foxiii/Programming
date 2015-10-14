@@ -1,0 +1,36 @@
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+div.desc {
+
+    text-align: center;
+    color:white;
+    font-weight: normal;
+    width: 120px;
+    margin: auto;
+}
+
+p {
+
+    color:white;
+    float:left;
+}

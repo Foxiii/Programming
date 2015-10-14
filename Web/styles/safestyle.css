@@ -1,0 +1,60 @@
+body{
+    background-color:#12100b;
+}
+
+#hintergrund{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:-108px;
+    left: 0;
+    right: 0;
+    width:auto;
+    height:auto;
+    z-index: 1;
+}
+
+#rand{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:42px;
+    width:auto;
+    height:auto;
+    z-index: 2;
+}
+#schloss{
+    position: absolute;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width:auto;
+    height:auto;
+    top:161px;
+    z-index: 3;
+}
+
+@media only screen and (min-resolution:120dpi) , screen and (max-width:1024px){
+    #hintergrund{
+        width:770px;
+        height:645px;
+        top:-10px;
+        left:6px;
+    }
+    #rand{
+        width:452px;
+        height:452px;
+        top:85px;
+        left: 3px;
+    }
+    #schloss{
+        width:300px;
+        height:300px;
+
+    }
+
+}

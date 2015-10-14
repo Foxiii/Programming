@@ -1,0 +1,229 @@
+body {
+    font-family:Verdana,sans-serif;font-size:0.8em;
+    position: relative;
+    width:960px;
+    display: block;
+    margin:auto;
+    color:white;
+    background: #000 url("../image/bg.gif") repeat-y top center;
+
+}
+h1{
+
+    text-shadow: 1px -1px  #808080;
+}
+header, footer,nav,section,aside,article,figure {
+    display: block;
+    padding:8px;
+}
+
+
+footer {
+
+
+    margin-top:0px;
+    padding-top:50px;
+    margin-bottom:0px;
+    background-color:black;
+
+
+}
+
+
+section {
+
+    text-align:center;
+    height:100%;
+    min-height:72.9vh;
+    margin-bottom:0px;
+    overflow: auto;
+    background-color:black;
+}
+article{
+    border:1px solid grey;
+    margin:5px;margin-bottom:15px;padding:8px;
+    background-color:white;
+}
+nav{
+
+
+    height:61px;
+    background: transparent url("../image/nav-bg.gif") repeat-x left bottom;
+    background-image: url("../image/nav-bg.gif");
+}
+
+p {
+    overflow: auto;
+}
+.error{
+    text-align:center;
+}
+
+.port{
+    border:1px solid grey;
+    width:20%;
+    margin:1%;
+    background-color:white;
+    float:left;
+}
+a{
+    text-decoration:none;
+    text-shadow: 1px -1px 2px  #808080;
+}
+a:link , form{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+a:active{
+    color:white;
+}
+
+
+
+#menu {
+    margin-top:28px
+
+}
+ul#menu li {
+    display:inline;
+    color:white;
+    padding:19px 20px;
+    border-right:1px solid #010101;
+}
+
+ul#foot li{
+    display:inline;
+
+    font-size:0.8em;
+    padding:19px 20px;
+    border-right:1px solid #010101;
+}
+#wilkommen{
+    float: left;
+    text-align: left;
+    width: 50em;
+    margin-left: 10em;
+
+
+}
+
+#wilkommen a{
+    text-decoration:underline;
+}
+
+
+#name{
+    margin-top:5px;
+    margin-left:20px;
+    width:160px;
+    height:45px;
+
+}
+
+nav #login-content {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 27%;
+    z-index: 999;
+    background: #fff;
+    background-image: linear-gradient(top, #fff, #eee);
+    padding: 15px;
+    box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+    border-radius: 3px;
+}
+
+nav #inputs{
+    color:black;
+}
+
+#login-sign{
+    float:right;
+}
+
+
+#menu  { 
+    position: relative; 
+}
+
+
+#menu li {
+    position: relative;
+    z-index: 100;
+}
+
+
+#menu div.ahover {
+    position: absolute;
+    z-index: 99;
+    border-left:4px solid #a1a1a1;
+    margin-left:-3px;
+    background: #a1a1a1;
+}
+.MsoHead{
+    display:block;
+    background:#03062e;
+    text-align:center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.MsoHead a:link , .MsoNormal a:link{
+    text-decoration:underline;
+    font-size:1em;
+}
+
+.MsoNormal{
+    text-align:left;
+    margin-left:25px;
+    font-size: 1em;
+}
+
+
+#picDE{
+    width:25px;
+    position: absolute;
+    top: 10px;
+    left: 93.5%;
+    height:25px;
+    cursor:pointer;
+}
+#picEN{
+    width:30px;
+    position: absolute;
+    top: 7px;
+    left: 96.5%;
+    height:30px;
+    cursor:pointer;
+}
+
+.studyTable{
+    width: 90%;
+    text-align: left;
+    margin-left: 4.5em;
+    border-collapse: collapse;
+    border-color: white;
+}
+
+.headStudy{
+    background-color: #02002B;
+    font-weight: bold;
+   
+}
+
+#studyText{
+    width: 90%;
+    text-align: left;
+    margin-left: 4.5em;
+}
+
+#divMail{
+    position: absolute;
+    top: 85px;
+    left: 85%;
+    height:25px;
+}
+
