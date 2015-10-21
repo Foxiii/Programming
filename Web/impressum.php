@@ -21,7 +21,9 @@ require ("cookie.php");
 
         <!--Standard "Impressum" for websites online generated -->
         <section>
-           
+            <h2>Impressum</h2>
+            <p>Thorsten Weber<br />
+                Melatener Straße 94<br />52074 Aachen</p>
 
             E-Mail: <a id="emailImpressum"></a><br />
 
@@ -68,6 +70,12 @@ require ("cookie.php");
             <a href="http://farm1.staticflickr.com/224/488647174_4e37d52e11_z.jpg" rel="nofollow">http://farm1.staticflickr.com/224/488647174_4e37d52e11_z.jpg</a>
             <br />
             <a href="https://stonetreeaus.files.wordpress.com/2012/02/mail-webtreatsetc.png" rel="nofollow">https://stonetreeaus.files.wordpress.com/2012/02/mail-webtreatsetc.png</a>
+            <br/>
+             <a href="http://www.bing.com/images/search?q=matlab&view=detailv2&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&id=53F7BD872051C460E3A875A96F0EF7C64E1A33BD&selectedIndex=14&ccid=PmHyNDL3&simid=608011926409183794&thid=OIP.M3e61f23432f797df88ffd01eb5a9e534o0&ajaxhist=0" rel="nofollow">
+                 http://tse3.mm.bing.net/th?id=OIP.M3e61f23432f797df88ffd01eb5a9e534o0&pid=15.1</a>
+            
+            
+            
         </p>
         <br /><br /><h2>Disclaimer – rechtliche Hinweise</h2>
         § 1 Haftungsbeschränkung<br />
