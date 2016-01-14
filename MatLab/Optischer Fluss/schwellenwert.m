@@ -1,4 +1,4 @@
-%Enter x as SCHWELLENWERT and A as Matrix to detect.
+%Enter x, y as SCHWELLENWERT and I as Matrix to detect.
 %Für zwei Kreise nutze imshow(schwellenwert(15,50,DUI))
 %Für großen Kreis nutze imshow(schwellenwert(-18,-2,DUI))
 

@@ -1,13 +1,14 @@
 function [ I ] = bewegung()
-
+%Einlesen der Bilder
 I1 = double(imread('bilder\bewegung1.bmp', 'BMP'));
 I2 = double(imread('bilder\bewegung2.bmp', 'BMP'));
 
+%Berechnung der Dimension
 D = size(I1);
 n = D(1,1);
 m = D(1,2);
 
-% 2.1 Randbedingungen Erweitere die Matrix A = I um Zeilte 0 und Spalte n+1
+% 2.1 Randbedingungen Erweitere die Matrix 1.
 
 I11 = I1(1,:);
 I1 = [I11;I1];
@@ -17,7 +18,7 @@ I31 = I1(:,1);
 I1 = [I31,I1];
 I41 = I1(:,end);
 I1 = [I1,I41];
-
+% 2.1 Randbedingungen Erweitere die Matrix 2.
 I12 = I2(1,:);
 I2 = [I12;I2];
 I22 = I2(end,:);
@@ -27,7 +28,7 @@ I2 = [I32,I2];
 I42 = I2(:,end);
 I2 = [I2,I42];
 
-
+%Berechnung von Ix Iy und It
 for i = 2:n+1;
 for j = 2:m+1;
     Ix(i-1,j-1) = (1/4 * (I1(i+1,j)-I1(i,j)+I1(i+1,j+1)-I1(i,j+1)+I2(i+1,j)-I2(i,j)+I2(i+1,j+1)-I2(i,j+1)));
@@ -89,6 +90,6 @@ end
 end
 
 
-%quiver(v(1:10:end,1:10:end),u(1:10:end,1:10:end))
+quiver(v(1:10:end,1:10:end),u(1:10:end,1:10:end))
 end
 

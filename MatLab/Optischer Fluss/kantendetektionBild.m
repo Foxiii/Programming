@@ -1,5 +1,5 @@
 function [ T] = kantendetektionBild(x,y)
-%imshow(kantendetektionBild(-0.09,0.9))
+%imshow(kantendetektionBild(-70,40))
  [I ,DI ] = kantendetektion(imread('bilder\camera.bmp'));
  
  D = size(I);
@@ -17,6 +17,5 @@ for j = 1:m;
     end
 end
 end
- 
 end
 
